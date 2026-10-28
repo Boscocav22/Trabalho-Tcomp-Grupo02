@@ -1,5 +1,5 @@
 ISSUE 1 — Leitura do arquivo e tratamento de erros globais
-Responsavel: BoscoLourimar Bezerra de Lima Filho
+Responsavel: Bosco Lourimar Bezerra de Lima Filho
 ==========================================================
 
 Arquivos da Issue 1:
