@@ -1,0 +1,13 @@
+<acessos>
+<registro><id_cracha>98765</id_cracha><status>ENTRADA</status><hora>0830</hora></registro>
+<registro><id_cracha>12345</id_cracha><status>ENTRADA</status><hora>0845</hora></registro>
+<registro><id_cracha>1</id_cracha><status>ENTRADA</status><hora>0000</hora></registro>
+<registro><id_cracha>98765</id_cracha><status>SAIDA</status><hora>1200</hora></registro>
+<registro><id_cracha>98765</id_cracha><status>ENTRADA</status><hora>1305</hora></registro>
+<registro><id_cracha>55021</id_cracha><status>ENTRADA</status><hora>1400</hora></registro>
+<registro><id_cracha>12345</id_cracha><status>SAIDA</status><hora>1745</hora></registro>
+<registro><id_cracha>98765</id_cracha><status>SAIDA</status><hora>1800</hora></registro>
+<registro><id_cracha>55021</id_cracha><status>SAIDA</status><hora>2200</hora></registro>
+<registro><id_cracha>9999999999</id_cracha><status>ENTRADA</status><hora>2359</hora></registro>
+<registro><id_cracha>1</id_cracha><status>SAIDA</status><hora>2359</hora></registro>
+</acessos>
