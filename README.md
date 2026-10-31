@@ -7,12 +7,10 @@ Arquivos da Issue 1:
   entrada.py  -> ler_arquivo(caminho): lista de (numero_linha, texto)
   main.py     -> orquestra os modulos e imprime o resultado
 
-Versoes provisorias (stubs) das outras issues, so para o main rodar:
+Modulos das outras issues:
   raiz.py     -> Issue 2 (validar_raiz)
   registro.py -> Issue 3 (validar_registro)
   tipos.py    -> Issue 4 (validar_tipos)
-  Ao enviar a sua parte, substitua o arquivo correspondente mantendo
-  o nome da funcao e o contrato descrito nos comentarios dele.
 
 Testes da Issue 1:
   acessos.xml                            -> XML valido (arquivo padrao do main)
@@ -29,6 +27,21 @@ Como testar:
   python main.py testes/nao_existe.xml    -> Erro: Arquivo ... nao encontrado
   python test_issue1.py                   -> roda todos os testes automaticos
 
+
+ISSUE 2 -- Validacao Sintatica do Elemento Raiz <acessos>
+==========================================================
+
+Arquivos da Issue 2:
+  raiz.py -> validar_raiz(linhas): valida a abertura e o fechamento do
+             elemento <acessos> e devolve as linhas internas para validacao
+             dos registros.
+
+A validacao verifica se o documento comeca com <acessos>, termina com
+</acessos> e nao contem outras tags raiz no meio. Em caso de erro, levanta
+ErroXML por meio de erro_sintatico(...).
+
+Como testar:
+  python main.py -> valida o arquivo acessos.xml usando todas as issues
 
 ISSUE 3 -- Validacao Estrutural do Bloco <registro>
 Responsavel: Arthur Pessoa Lira
