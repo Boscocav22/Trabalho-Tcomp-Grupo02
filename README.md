@@ -32,16 +32,17 @@ ISSUE 2 -- Validacao Sintatica do Elemento Raiz <acessos>
 ==========================================================
 
 Arquivos da Issue 2:
-  raiz.py -> validar_raiz(linhas): valida a abertura e o fechamento do
-             elemento <acessos> e devolve as linhas internas para validacao
-             dos registros.
+  raiz.py        -> validar_raiz(linhas): valida as tags externas de <acessos>
+                    e devolve as linhas internas para validacao dos registros.
+  test_issue2.py -> testes automaticos
 
 A validacao verifica se o documento comeca com <acessos>, termina com
 </acessos> e nao contem outras tags raiz no meio. Em caso de erro, levanta
 ErroXML por meio de erro_sintatico(...).
 
 Como testar:
-  python main.py -> valida o arquivo acessos.xml usando todas as issues
+  python main.py        -> valida o arquivo acessos.xml usando todas as issues
+  python test_issue2.py -> roda os testes automaticos da Issue 2
 
 ISSUE 3 -- Validacao Estrutural do Bloco <registro>
 Responsavel: Arthur Pessoa Lira
